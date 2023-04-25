@@ -1,0 +1,72 @@
+[
+  {
+    "Hook": "useEffect",
+    "Discription": "The useEffect Hook allows you to perform side effects in your components.Some examples of side effects are: fetching data, directly updating the DOM, and timers.useEffect accepts two arguments. The second argument is optional.",
+    "url": "https://codesandbox.io/embed/usestate-yyuc3e?fontsize=14&hidenavigation=1&theme=dark"
+  },
+  {
+    "Hook": "useId",
+    "Discription": "useId is a Hook, so you can only call it at the top level of your component or your own Hooks. You can’t call it inside loops or conditions. If you need that, extract a new component and move the state into it.",
+    "url": "https://codesandbox.io/embed/useid-rn2ygh?fontsize=14&hidenavigation=1&module=%2Fsrc%2FEmail.jsx&theme=dark"
+  },
+  {
+    "Hook": "useContext",
+    "Discription": "React Context is a way to manage state globally.It can be used together with the useState Hook to share state between deeply nested components more easily than with useState alone.In a typical React application, data is passed top-down (parent to child) via props, but this can be difficult for certain types of props that are required by many components which are Nested at different levels within an application.",
+    "url": "https://codesandbox.io/embed/usecontext-v5n447?fontsize=14&hidenavigation=1&theme=dark"
+  },
+  {
+    "Hook": "useDebug",
+    "Discription": "useDebugValue is a simple inbuilt Hook that provides more information about the internal logic of a custom Hook within the React DevTools. It allows you to display additional, helpful information next to your custom Hooks, with optional formatting.",
+    "url": "https://codesandbox.io/embed/usedebug-18k1e3?fontsize=14&hidenavigation=1&module=%2Fsrc%2FuseCustom.jsx&theme=dark"
+  },
+  {
+    "Hook": "useDeffered",
+    "Discription": "The useDeferredValue hook allows us to fix this slow render problem by implementing a delay before some information is calculated. This works in a very similar way to debouncing and throttling since our deferred value will only be calculated after the important state updates have finished running",
+    "url": "https://codesandbox.io/embed/usediffered-1cw6ps?fontsize=14&hidenavigation=1&theme=dark"
+  },
+  {
+    "Hook": "useReducer",
+    "Discription": "The useReducer Hook is similar to the useState Hook.It allows for custom state logic.If you find yourself keeping track of multiple pieces of state that rely on complex logic, useReducer may be useful.",
+    "url": "https://codesandbox.io/embed/amazing-wright-hztosv?fontsize=14&hidenavigation=1&theme=dark"
+  },
+  {
+    "Hook": "useTransition",
+    "Discription": "We can use the useTransition hook to tell React that a certain state change will result in an expensive rendering. React will then deprioritize this state change allowing other renderings to take place faster providing a very responsive UI.",
+    "url": "https://codesandbox.io/embed/usetransition-dxyyex?fontsize=14&hidenavigation=1&theme=dark"
+  },
+  {
+    "Hook": "useInsertionEffect",
+    "Discription": "t has the same signature as useEffect, but it fires synchronously before all DOM mutations. i.e. it is fired before useLayoutEffect. It is used to inject styles into the DOM before reading layout. useInsertionEffect is intended for CSS-in-JS libraries, such as styled-components. Since this hook is limited in scope, this hook does not have access to refs and cannot schedule updates.",
+    "url": "https://codesandbox.io/embed/useinsertioneffect-xw7yfe?fontsize=14&hidenavigation=1&module=%2Fsrc%2FThemeButton.jsx&theme=dark"
+  },
+  {
+    "Hook": "useImperative",
+    "Discription": "The useImperativeHandle hook works in the similar phase of useRef hook but only it allows us to modify the instance that is going to be passed with the ref object which provides a reference to any DOM element. Although this hook is used in rare cases, it has some most advanced functionality.",
+    "url": "https://codesandbox.io/embed/useimperative-714pj6?fontsize=14&hidenavigation=1&theme=dark"
+  },
+  {
+    "Hook": "useSyncExternalStore",
+    "Discription": "useSyncExternalStore is a hook recommended for reading and subscribing from external data sources in a way that’s compatible with concurrent rendering features like selective hydration and time slicing. This method returns the value of the store and accepts three arguments:\nsubscribe: function to register a callback that is called whenever the store changes.getSnapshot: function that returns the current value of the store.getServerSnapshot: function that returns the snapshot used during server rendering.",
+    "url": "https://codesandbox.io/embed/usesyncexternalstore-im1hlb?fontsize=14&hidenavigation=1&module=%2Fsrc%2FStore.jsx&theme=dark"
+  },
+  {
+    "Hook": "useCallback",
+    "Discription": "useCallback(callback, dependencies) will return a memoized instance of the callback that only changes if one of the dependencies has changed. This means that instead of recreating the function object on every re-render, we can use the same function object between renders.",
+    "url": "https://codesandbox.io/embed/usecallback-and-memo-gwc3zq?fontsize=14&hidenavigation=1&theme=dark"
+  },
+  {
+    "Hook": "useMemo",
+    "Discription": "useMemo allows you to memoize expensive functions so that you can avoid calling them on every render. You simple pass in a function and an array of inputs and useMemo will only recompute the memoized value when one of the inputs has changed",
+    "url": "https://codesandbox.io/embed/usecallback-and-memo-gwc3zq?fontsize=14&hidenavigation=1&module=%2Fsrc%2FAddvocado.js&theme=dark"
+  },
+  {
+    "Hook": "useState",
+    "Discription": "The React useState Hook allows us to track state in a function component.State generally refers to data or properties that need to be tracking in an application.It returns an array with two values: the current state and a function to update it. The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called. ",
+    "url": "https://codesandbox.io/embed/usestate-yyuc3e?fontsize=14&hidenavigation=1&theme=dark"
+  },
+  {
+    "Hook": "useRef",
+    "Discription": "The useRef is a hook that allows to directly create a reference to the DOM element in the functional component. ",
+    "url": "https://codesandbox.io/embed/usestate-yyuc3e?fontsize=14&hidenavigation=1&theme=dark"
+  }
+]

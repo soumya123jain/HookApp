@@ -1,0 +1,16 @@
+[
+  { "value": "useEffect", "name": "useEffect" },
+  { "value": "useID", "name": "useID" },
+  { "value": "useDebug", "name": "useDebug" },
+  { "value": "useContext", "name": "useContext" },
+  { "value": "useDeffered", "name": "useDeffered" },
+  { "value": "useReducer", "name": "useReducer" },
+  { "value": "useTransition", "name": "useTransition" },
+  { "value": "useInsertionEffect", "name": "useInsertionEffect" },
+  { "value": "useImperative", "name": "useImperative" },
+  { "value": "useSyncExternalStore", "name": "useSyncExternalStore" },
+  { "value": "useCallback", "name": "useCallback" },
+  { "value": "useMemo", "name": "useMemo" },
+  { "value": "useState", "name": "useState" },
+  { "value": "useRef", "name": "useRef" }
+]
